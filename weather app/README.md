@@ -1,4 +1,6 @@
 # Terminal Weather App
+## Demonstration
+![gif](./demonstration.gif)
 ## Input
 * city (such as- dhaka, chittagong, berlin etc)
 ```shell
