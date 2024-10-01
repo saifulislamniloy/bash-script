@@ -5,11 +5,12 @@ echo "| Terminal Weather App |"
 echo "------------------------"
 
 # configurations
-API_KEY=8ce74ca225f149fdbcd135928242909
 BASE_URL=https://api.weatherapi.com/v1
 CURRENT=/current.json
 FORCAST=/forecast.json
-PARAMS=?key=${API_KEY}"&q=${1}"
+
+# WEATHER_APP_API_KEY is stored as an environment variable
+PARAMS=?key=${WEATHER_APP_API_KEY}"&q=${1}"
 
 COMPLETE_URL=${BASE_URL}${CURRENT}${PARAMS} 
 
