@@ -1,11 +1,8 @@
 #! /bin/bash
 
-# https://www.weatherapi.com/docs/
-
 echo "------------------------"
 echo "| Terminal Weather App |"
 echo "------------------------"
-
 
 # configurations
 API_KEY=8ce74ca225f149fdbcd135928242909
