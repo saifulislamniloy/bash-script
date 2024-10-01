@@ -28,7 +28,3 @@ dateAndTime=$(echo $response | grep -o "\"localtime\":\"\d\{4\}-\d\d-\d\d \d\d\:
 echo "temperature: ${currentTemperature}°C"
 echo "location   : ${location}"
 echo "date & time: ${dateAndTime}"
-# currentTemperature=(echo "$response" | grep -o "\"temp_c\":\d\d.\d" | grep -o "\d\d.\d")
-
-
-
