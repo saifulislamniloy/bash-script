@@ -2,9 +2,9 @@
 
 # https://www.weatherapi.com/docs/
 
-echo "--------------------"
-echo "| Bash Weather App |"
-echo "--------------------"
+echo "------------------------"
+echo "| Terminal Weather App |"
+echo "------------------------"
 
 
 # configurations
