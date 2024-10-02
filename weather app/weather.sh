@@ -11,13 +11,12 @@ FORCAST=/forecast.json
 
 # WEATHER_APP_API_KEY is stored as an environment variable
 PARAMS=?key=${WEATHER_APP_API_KEY}"&q=${1}"
-
 COMPLETE_URL=${BASE_URL}${CURRENT}${PARAMS} 
 
 
 response=$(curl -s ${COMPLETE_URL})
-currentTemperature=$(echo $response | grep -o "\"temp_c\":\d\d.\d" | grep -o "\d\d.\d")
 
+currentTemperature=$(echo $response | grep -o "\"temp_c\":\d\d.\d" | grep -o "\d\d.\d")
 
 location=$(echo $response | grep -o "\"name\":\"[A-Za-z]*\"" | cut -d ':' -f 2 | tr -d '"')
 
