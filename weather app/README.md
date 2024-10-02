@@ -3,7 +3,7 @@
 ![gif](./demonstration.gif)
 
 ## Prerequisite
-* Create account in this website - [weatherapi.com](https://www.weatherapi.com/) and get your api key.
+* Create account in this website - <a href="https://www.weatherapi.com/" target="_blank">weatherapi.com</a> and get your api key.
 
 * Open the .bashrc or .zshrc file in a text editor:
 ```shell
@@ -34,7 +34,7 @@ date & time: 2024-10-01 20:20
 
 ## Code Explanation
 
-* Used weather api from this website - [weatherapi.com](https://www.weatherapi.com/)
+* Used weather api from this website - <a href="https://www.weatherapi.com/" target="_blank">weatherapi.com</a>
 * fetch weather data using `curl` command
 * curl return response in json format
 * search required key value pairs from json using `grep` command
