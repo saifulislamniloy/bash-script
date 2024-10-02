@@ -39,5 +39,5 @@ date & time: 2024-10-01 20:20
 * curl return response in json format
 * search required key value pairs from json using `grep` command
 * split key value pair and keep value only using `cut` command
-* removed invirted comma using `tr` command
+* removed inverted comma using `tr` command
 
